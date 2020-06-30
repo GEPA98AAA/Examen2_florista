@@ -1,0 +1,43 @@
+@import url('htpps:/fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+:root{
+	--rojo: #ff0020;
+}
+.navbar-inner{
+	background-color: var(--rojo);
+	color: white;
+}
+.bar{
+	color: white;
+}
+.block-title{
+	color: var(--rojo);
+}
+.categorias .card-content{
+	background-color: var(--rojo);
+	text-align: center;
+	align-content: center;
+	color: white;
+}
+.categorias .card-content img{
+	padding-top: 30px;
+}
+.categorias h3{
+	font-size: 15px;
+}
+.img-perfil{
+	border-radius: 100%;
+	width: 40px;
+}
+.item-inner::before{
+	color: var(--rojo) !important;
+}
+.perfil-contador .card-content{
+	background-color: var(--rojo);
+	align-content: center;
+	text-align: center;
+	color: white;
+	border-radius: 30px;
+}
